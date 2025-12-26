@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/MatheusBentoP/crud-go/src/configuration/validation"
+	"github.com/MatheusBentoP/crud-go/src/controller/model/request"
 	"github.com/MatheusBentoP/crud-go/src/model"
-	"github.com/MatheusBentoP/crud-go/src/model/request"
 	"github.com/bytedance/gopkg/util/logger"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
