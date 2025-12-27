@@ -1,7 +1,7 @@
-package model
+package service
 
 import "github.com/MatheusBentoP/crud-go/src/configuration/rest_err"
 
-func (*UserDomain) UptadeUser(string) *rest_err.RestErr {
+func (*userDomainService) DeleteUser(string) *rest_err.RestErr {
 	return nil
 }
